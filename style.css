@@ -1,0 +1,105 @@
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    width: 450px;
+    height: 610px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 17px 17px 17px 17px;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px hsl(225, 100%, 90%);
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0.3rem 0.5rem 1rem hsl(225, 100%, 80%);
+}
+
+.image {
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.text {
+    padding: 0px 15px 10px;
+}
+
+.box {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.icon {
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    align-items: center;
+    border: 7px solid hsl(225, 100%, 94%);
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.back-image {
+    margin: auto;
+}
+
+.box-text {
+    position: relative;
+    line-height: 0.5rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.box-end {
+    position: relative;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.card-footer {
+    padding: 0.5rem;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column
+}
+
+.btn {
+    margin: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 0.5rem 1rem hsl(225, 100%, 80%);
+    color: white;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: hsl(223, 47%, 23%);
+    box-shadow: 0 0.5rem 1rem hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+    color: grey;
+    text-decoration: none;
+    background-color: white;
+}
+
+.cancel-btn:hover {
+    color: rgb(0, 0, 0);
+}
